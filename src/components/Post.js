@@ -10,16 +10,16 @@ export default function Post({ item }) {
   const dispatch = useDispatch();
   function handleSil() {
     dispatch(notSilAPI(item.id));
-    toast.warning("Notunuz silindi!", {
-      position: "top-right",
-      autoClose: 5000,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-      theme: "light",
-    });
+    // toast.warning("Notunuz silindi!", {
+    //   position: "top-right",
+    //   autoClose: 5000,
+    //   hideProgressBar: false,
+    //   closeOnClick: true,
+    //   pauseOnHover: true,
+    //   draggable: true,
+    //   progress: undefined,
+    //   theme: "light",
+    // });
   }
 
   return (
